@@ -1,0 +1,18 @@
+; Basic namserver setup
+jak-software.de.        86400   IN  SOA ns.inwx.de. hostmaster.inwx.de. 2018011801 10800 3600 604800 3600
+jak-software.de.        86400   IN  NS  ns.inwx.de.
+jak-software.de.        86400   IN  NS  ns2.inwx.de.
+jak-software.de.        86400   IN  NS  ns3.inwx.eu.
+jak-software.de.        86400   IN  NS  ns4.inwx.com.
+jak-software.de.        86400   IN  NS  ns5.inwx.net.
+
+; Root domain
+jak-software.de.        3600    IN  A       185.26.156.31
+jak-software.de.        3600    IN  AAAA    2a00:d0c0:200:0:b9:1a:9c1f:349
+
+; Mail setup
+jak-software.de.        3600    IN  MX  0 diphda.uberspace.de.
+jak-software.de.        3600    IN  TXT "v=spf1 +mx include:_spf.google.com ~all"
+
+; Aliases
+www.jak-software.de.    86400   IN  CNAME   jak-software.de.
