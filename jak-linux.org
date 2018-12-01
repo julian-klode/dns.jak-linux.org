@@ -7,23 +7,21 @@ jak-linux.org.      86400   IN  NS  ns4.inwx.com.
 jak-linux.org.      86400   IN  NS  ns5.inwx.net.
 
 ; Root domain
-jak-linux.org.      300    IN  A       185.26.156.31
-jak-linux.org.      300    IN  AAAA    2a00:d0c0:200:0:b9:1a:9c1f:349
+jak-linux.org.      300    IN  A       195.201.138.240
+jak-linux.org.      300    IN  AAAA    2a01:4f8:1c1c:9761::1
 jak-linux.org.      300    IN  MX      0 diphda.uberspace.de.
 jak-linux.org.      3600    IN  TXT     "google-site-verification=0AQv08RD3k5YtZ3SpDc-VG1SO-UJBouscqLX7FKk8oU"
 jak-linux.org.      3600    IN  TXT     "v=spf1 +mx include:_spf.google.com ~all"
 jak-linux.org.      86400   IN  CAA     0 issue "letsencrypt.org"
 
 ; Blog
-blog.jak-linux.org. 300     IN  CNAME   jak-linux.org.
+blog.jak-linux.org. 300     IN  CNAME   magenta.jak-linux.org.
 blog.jak-linux.org. 86400   IN  CAA     0 issue "letsencrypt.org"
 
 ; Aliases
-www.jak-linux.org.  86400   IN  CNAME   jak-linux.org.
+www.jak-linux.org.  86400   IN  CNAME   magenta.jak-linux.org.
 www.jak-linux.org.  86400   IN  CAA     0 issue "letsencrypt.org"
 
-znc.jak-linux.org.  86400   IN  CNAME   jak-linux.org.
-znc.jak-linux.org.  86400   IN  CAA     0 issue "letsencrypt.org"
 
 mail.jak-linux.org. 300    IN  MX      0 diphda.uberspace.de.
 mail.jak-linux.org. 3600    IN  TXT     "v=spf1 +mx include:_spf.google.com ~all"
