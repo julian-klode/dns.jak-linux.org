@@ -36,3 +36,6 @@ _dmarc.magenta.jak-linux.org.           300   IN  TXT     "v=DMARC1; p=none; rua
     "v=DKIM1; h=sha256; k=rsa; s=email; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv7u3HcIxXbldcPKTdNJE9X6ZOiA/YBD61CmZOMOA4rU5jyVxJuWBj3jl2cYh70Amsd3SR725dtqzrYTktifuMhRyK20HwEN1Yym+hS2YPYRD59Va1LNE8lNCPLqtz582BFWBv/EpDihTTB3+BT/E26aMHrNk8wD75Ajg/+HWkG5NkB"
     "tWHCr3Zb7RWZ1QaPTZu0TbG/KHGXcVZML0QFUACJRzvtMdLdNo3Ym1q1hAB7vuRt0YCUdUAvJdkSzEi7gX64NHBs899mzZIcN6Bjr1VRNl3QdsZJ32EwOIAF+ORKUHn3j+ezMHwREAsgcaC7eThL/AB3SFlG30XxbpcUAYFwIDAQAB"
 )
+
+; UptimeRobot status page
+status.jak-linux.org.  300   IN  CNAME   stats.uptimerobot.com.
