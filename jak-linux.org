@@ -10,7 +10,7 @@ jak-linux.org.      86400   IN  NS  ns5.inwx.net.
 jak-linux.org.      300    IN  A       195.201.138.240
 jak-linux.org.      300    IN  AAAA    2a01:4f8:1c1c:9761::1
 jak-linux.org.      300    IN  MX      0 diphda.uberspace.de.
-jak-linux.org.      3600    IN  TXT     "google-site-verification=0AQv08RD3k5YtZ3SpDc-VG1SO-UJBouscqLX7FKk8oU"
+jak-linux.org.      3600    IN  TXT     "google-site-verification=nuytl5fvUn-ftCyxYke1su_ZMwZhJ_nFhd059oRb1UU"
 jak-linux.org.      3600    IN  TXT     "v=spf1 +mx include:_spf.google.com ~all"
 jak-linux.org.      86400   IN  CAA     0 issue "letsencrypt.org"
 
