@@ -7,8 +7,10 @@ jak-software.de.        86400   IN  NS  ns4.inwx.com.
 jak-software.de.        86400   IN  NS  ns5.inwx.net.
 
 ; Root domain
-jak-software.de.        3600    IN  A       185.26.156.31
-jak-software.de.        3600    IN  AAAA    2a00:d0c0:200:0:b9:1a:9c1f:349
+jak-software.de.        3600    IN  A       195.201.138.240
+jak-software.de.        3600    IN  AAAA    2a01:4f8:1c1c:9761::1
+jak-software.de.        86400   IN  CAA     0 issue "letsencrypt.org"
+
 
 ; Mail setup
 jak-software.de.        3600    IN  MX  0 diphda.uberspace.de.
