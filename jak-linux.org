@@ -7,15 +7,15 @@ jak-linux.org.      86400   IN  NS  ns4.inwx.com.
 jak-linux.org.      86400   IN  NS  ns5.inwx.net.
 
 ; Root domain
-jak-linux.org.      300    IN  A       195.201.138.240
-jak-linux.org.      300    IN  AAAA    2a01:4f8:1c1c:9761::1
+jak-linux.org.      3600    IN  A       195.201.138.240
+jak-linux.org.      3600    IN  AAAA    2a01:4f8:1c1c:9761::1
 jak-linux.org.      300    IN  MX      0 diphda.uberspace.de.
 jak-linux.org.      3600    IN  TXT     "google-site-verification=nuytl5fvUn-ftCyxYke1su_ZMwZhJ_nFhd059oRb1UU"
 jak-linux.org.      3600    IN  TXT     "v=spf1 +mx include:_spf.google.com ~all"
 jak-linux.org.      86400   IN  CAA     0 issue "letsencrypt.org"
 
 ; Blog
-blog.jak-linux.org. 300     IN  CNAME   magenta.jak-linux.org.
+blog.jak-linux.org. 3600     IN  CNAME   magenta.jak-linux.org.
 blog.jak-linux.org. 86400   IN  CAA     0 issue "letsencrypt.org"
 
 ; Aliases
@@ -27,8 +27,8 @@ mail.jak-linux.org. 300    IN  MX      0 diphda.uberspace.de.
 mail.jak-linux.org. 3600    IN  TXT     "v=spf1 +mx include:_spf.google.com ~all"
 
 ; magenta server
-magenta.jak-linux.org.                  300   IN  A       195.201.138.240
-magenta.jak-linux.org.                  300   IN  AAAA    2a01:4f8:1c1c:9761::1
+magenta.jak-linux.org.                  86400 IN  A       195.201.138.240
+magenta.jak-linux.org.                  86400 IN  AAAA    2a01:4f8:1c1c:9761::1
 magenta.jak-linux.org.                  300   IN  MX      0 magenta.jak-linux.org.
 magenta.jak-linux.org.                  3600  IN  TXT     "v=spf1 +mx ~all"
 _dmarc.magenta.jak-linux.org.           300   IN  TXT     "v=DMARC1; p=none; rua=mailto:jak@magenta.jak-linux.org"
@@ -38,4 +38,4 @@ _dmarc.magenta.jak-linux.org.           300   IN  TXT     "v=DMARC1; p=none; rua
 )
 
 ; UptimeRobot status page
-status.jak-linux.org.  300   IN  CNAME   stats.uptimerobot.com.
+status.jak-linux.org.  3600   IN  CNAME   stats.uptimerobot.com.
