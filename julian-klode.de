@@ -1,0 +1,10 @@
+julian-klode.de.	86400	IN	SOA	ns.inwx.de. hostmaster.inwx.de. 2018121003 10800 3600 604800 3600
+julian-klode.de.	86400	IN	NS	ns.inwx.de.
+julian-klode.de.	86400	IN	NS	ns2.inwx.de.
+julian-klode.de.	86400	IN	NS	ns3.inwx.eu.
+julian-klode.de.	86400	IN	NS	ns4.inwx.com.
+julian-klode.de.	86400	IN	NS	ns5.inwx.net.
+
+*.julian-klode.de.	300	IN	A	185.181.104.74
+julian-klode.de.	300	IN	A	185.181.104.74
+www.julian-klode.de.	300	IN	A	185.181.104.74
