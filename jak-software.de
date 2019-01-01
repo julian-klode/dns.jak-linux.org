@@ -13,7 +13,7 @@ jak-software.de.        86400   IN  CAA     0 issue "letsencrypt.org"
 
 
 ; Mail setup
-jak-software.de.        3600    IN  MX  0 diphda.uberspace.de.
+jak-software.de.        3600    IN  MX  0 magenta.jak-linux.org.
 jak-software.de.        3600    IN  TXT "v=spf1 +mx include:_spf.google.com ~all"
 
 ; Aliases
