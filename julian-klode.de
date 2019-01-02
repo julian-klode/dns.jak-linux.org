@@ -14,3 +14,7 @@ www.julian-klode.de. 300     IN  AAAA 2a01:4f8:1c1c:9761::1
 
 
 julian-klode.de.     300    IN  MX      0 magenta.jak-linux.org.
+
+
+arc._domainkey       300    IN TXT ( "v=DKIM1; k=rsa; "                                                                                                                                                                                        
+        "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBBXYExAYKENaSm4AUbJVPljCzQEQHMgD785ycWEh2GamHcVwpZLvM1ytSC62qFolAq+nV/LDMB3yA0utHS78NltCCKF/tK1ieWEdIXXNRq2ix+gLve3cbDei5Us6iAPltpXxRRmYzhDH/oQ0pIwheCh6uT+jS84rkdu6oQCbZlQIDAQAB" ) ;
