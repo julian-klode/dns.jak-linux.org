@@ -39,3 +39,9 @@ _dmarc.magenta.jak-linux.org.           300   IN  TXT     "v=DMARC1; p=none; rua
 
 ; UptimeRobot status page
 status.jak-linux.org.  3600   IN  CNAME   stats.uptimerobot.com.
+
+
+_token._dnswl.jak-linux.org.		300  IN	TXT	"g8tcwu4aso64z7v5sp0zt4790dx4vo3b"
+
+; other crap
+freifunk      3600    IN  AAAA     2a06:4b00:1000:0:1aa6:f7ff:fe5a:a8e
