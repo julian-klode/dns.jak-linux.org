@@ -15,6 +15,7 @@ jak-software.de.        86400   IN  CAA     0 issue "letsencrypt.org"
 ; Mail setup
 jak-software.de.        3600    IN  MX  0 magenta.jak-linux.org.
 jak-software.de.        3600    IN  TXT "v=spf1 +mx include:_spf.google.com ~all"
+jak-software.de.        3600    IN  TXT "keybase-site-verification=6fQnY-Cf7ZOg1hWIvRc2kP768Drl_QGczXlrphCRBa0"
 
 ; Aliases
 www.jak-software.de.    86400   IN  CNAME   jak-software.de.
