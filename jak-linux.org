@@ -44,3 +44,14 @@ _token._dnswl.jak-linux.org.		300  IN	TXT	"g8tcwu4aso64z7v5sp0zt4790dx4vo3b"
 freifunk      3600    IN  AAAA     2a06:4b00:1000::fad1:11ff:fea0:c7be
 
 vault         86400   IN  CNAME   magenta.jak-linux.org.
+
+; email
+_imaps._tcp       300      IN      SRV    0 0 993 magenta.jak-linux.org.
+_submission._tcp  300      IN      SRV    0 0 587 magenta.jak-linux.org.
+
+20221119._domainkey 86400     IN     TXT ( "v=DKIM1; k=rsa; "
+        "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHGyJHjITt6cBdbjvbUn/2uiOGeglwp0PDCT/ptQ/zi5LzoL+vyRURnFamGZFRZcv+PIK/rb0ZOpcuTU+7SiDWQMsMny9UHtY4U/d7c6jZ79u5VaDGpgYxd8Y8cviK4zROkO3IMXkgUAVSFgIst4eh1sC9/bjVn2a3UeqczOrP0QIDAQAB" ) ;
+
+arc-20221121._domainkey 86400 IN TXT ( "v=DKIM1; k=rsa; "
+        "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDM2SGiBbMXPwHXo2RlK9zCsVizf6ZAgEaacs4dTY7jRvZ3v2LsQqIKu26CZEwpT4C2QvCQBU2DNPDbkCR7uMrfEeDTVUr/l9T3RP/BcVPnukNC0XWI9wgjfChc+SHvuqQYCC8HiUlwqp+HgMX/oLZdxzfdE0K3w6Q1X5R5X1U3+wIDAQAB" ) ;
+
